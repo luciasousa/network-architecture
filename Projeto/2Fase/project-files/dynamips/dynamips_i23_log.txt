@@ -1,0 +1,15 @@
+Jul 10 14:48:49.565 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 10 14:48:49.581 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53353.
+Jul 10 14:48:50.018 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 10 14:48:50.019 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips 
+Jul 10 14:48:50.019 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips
+Jul 10 14:48:50.020 HYPERVISOR: exec_cmd: ethsw create Switch7 
+Jul 10 14:49:08.363 HYPERVISOR: exec_cmd: nio create_udp udp-db77735a-f3ea-44f0-ad6d-95480b6b9b8c 10146 127.0.0.1 10147 
+Jul 10 14:49:08.364 HYPERVISOR: exec_cmd: ethsw add_nio Switch7 udp-db77735a-f3ea-44f0-ad6d-95480b6b9b8c 
+Jul 10 14:49:08.379 HYPERVISOR: exec_cmd: ethsw set_access_port Switch7 udp-db77735a-f3ea-44f0-ad6d-95480b6b9b8c 1 
+Jul 10 14:49:08.638 HYPERVISOR: exec_cmd: nio create_udp udp-894e5d39-8d3f-4e7f-94ee-5d28193fe809 10150 127.0.0.1 10151 
+Jul 10 14:49:08.638 HYPERVISOR: exec_cmd: ethsw add_nio Switch7 udp-894e5d39-8d3f-4e7f-94ee-5d28193fe809 
+Jul 10 14:49:08.660 HYPERVISOR: exec_cmd: ethsw set_access_port Switch7 udp-894e5d39-8d3f-4e7f-94ee-5d28193fe809 1 
+Jul 10 14:49:18.569 HYPERVISOR: exec_cmd: nio create_udp udp-96f70492-dd56-4a71-9028-3b9753337e1e 10231 127.0.0.1 10230 
+Jul 10 14:49:18.570 HYPERVISOR: exec_cmd: ethsw add_nio Switch7 udp-96f70492-dd56-4a71-9028-3b9753337e1e 
+Jul 10 14:49:18.597 HYPERVISOR: exec_cmd: ethsw set_access_port Switch7 udp-96f70492-dd56-4a71-9028-3b9753337e1e 1 

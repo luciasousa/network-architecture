@@ -1,0 +1,4 @@
+set pcname S2
+ip 10.2.16.1 10.2.16.2 24
+ip 3100:10:10:210::1/64
+ip domain example.org

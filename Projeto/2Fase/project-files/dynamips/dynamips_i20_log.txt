@@ -1,0 +1,36 @@
+Jul 10 14:48:47.634 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 10 14:48:47.638 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53338.
+Jul 10 14:48:48.051 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 10 14:48:48.051 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips 
+Jul 10 14:48:48.051 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips
+Jul 10 14:48:48.051 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\e7e0e8c3-f296-4bd4-9a35-d56f259439b8 
+Jul 10 14:48:48.051 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\e7e0e8c3-f296-4bd4-9a35-d56f259439b8
+Jul 10 14:48:48.051 HYPERVISOR: exec_cmd: vm create RAntena2 16 c7200 
+Jul 10 14:48:48.063 VM: VM RAntena2 created.
+Jul 10 14:48:48.065 HYPERVISOR: exec_cmd: vm set_con_tcp_port RAntena2 5059 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: c7200 get_mac_addr RAntena2 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm slot_add_binding RAntena2 0 0 C7200-IO-FE 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_disk0 RAntena2 0 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_exec_area RAntena2 64 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_idle_pc RAntena2 0x601712a8 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_ios RAntena2 C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: c7200 set_mac_addr RAntena2 ca10.4384.0000 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_nvram RAntena2 512 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm set_ram RAntena2 512 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:48:48.066 HYPERVISOR: exec_cmd: vm slot_remove_binding RAntena2 0 0 
+Jul 10 14:48:48.082 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:48:48.082 HYPERVISOR: exec_cmd: vm slot_add_binding RAntena2 0 0 C7200-IO-2FE 
+Jul 10 14:48:48.082 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:48:48.082 HYPERVISOR: exec_cmd: vm slot_add_binding RAntena2 1 0 PA-2FE-TX 
+Jul 10 14:49:00.662 HYPERVISOR: exec_cmd: nio create_udp udp-572bed59-388d-46cd-b4c7-5ca1d6c76acd 10070 127.0.0.1 10071 
+Jul 10 14:49:00.972 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RAntena2 0 0 udp-572bed59-388d-46cd-b4c7-5ca1d6c76acd 
+Jul 10 14:49:00.974 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:49:04.382 HYPERVISOR: exec_cmd: nio create_udp udp-bee0ccbf-43aa-4e58-ae83-abbe24818340 10108 127.0.0.1 10109 
+Jul 10 14:49:04.386 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RAntena2 0 1 udp-bee0ccbf-43aa-4e58-ae83-abbe24818340 
+Jul 10 14:49:04.386 HYPERVISOR: exec_cmd: vm get_status RAntena2 
+Jul 10 14:49:05.103 HYPERVISOR: exec_cmd: nio create_udp udp-141e1aef-3363-4f20-bad9-0a3523d3963c 10114 127.0.0.1 10115 
+Jul 10 14:49:05.107 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RAntena2 1 0 udp-141e1aef-3363-4f20-bad9-0a3523d3963c 
+Jul 10 14:49:05.108 HYPERVISOR: exec_cmd: vm get_status RAntena2 

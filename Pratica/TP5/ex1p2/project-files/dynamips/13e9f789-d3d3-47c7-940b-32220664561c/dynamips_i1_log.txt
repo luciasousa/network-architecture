@@ -1,0 +1,24 @@
+May 25 09:07:15.625 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 25 09:07:15.627 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61166.
+May 25 09:07:15.870 HYPERVISOR: exec_cmd: hypervisor version 
+May 25 09:07:15.870 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP5\ex1p2\project-files\dynamips 
+May 25 09:07:15.906 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP5\ex1p2\project-files\dynamips
+May 25 09:07:15.907 HYPERVISOR: exec_cmd: ethsw create Switch1 
+May 25 09:07:18.497 HYPERVISOR: exec_cmd: nio create_udp udp-4094f183-2c23-423e-909d-e3de238491f1 10001 127.0.0.1 10000 
+May 25 09:07:18.498 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-4094f183-2c23-423e-909d-e3de238491f1 
+May 25 09:07:18.530 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-4094f183-2c23-423e-909d-e3de238491f1 1 
+May 25 09:07:18.659 HYPERVISOR: exec_cmd: nio create_udp udp-1d07f401-d3f1-4248-b656-3c6073e83c94 10002 127.0.0.1 10003 
+May 25 09:07:18.665 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1d07f401-d3f1-4248-b656-3c6073e83c94 
+May 25 09:07:18.674 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1d07f401-d3f1-4248-b656-3c6073e83c94 1 
+May 25 09:27:27.248 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-4094f183-2c23-423e-909d-e3de238491f1 
+May 25 09:27:27.258 HYPERVISOR: exec_cmd: nio delete udp-4094f183-2c23-423e-909d-e3de238491f1 
+May 25 09:33:58.338 HYPERVISOR: exec_cmd: nio create_udp udp-530e37a7-1b02-4635-8942-75e22c8d7f45 10013 127.0.0.1 10012 
+May 25 09:33:58.347 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-530e37a7-1b02-4635-8942-75e22c8d7f45 
+May 25 09:33:58.375 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-530e37a7-1b02-4635-8942-75e22c8d7f45 1 
+May 25 10:43:39.149 HYPERVISOR: exec_cmd: nio bind_filter udp-530e37a7-1b02-4635-8942-75e22c8d7f45 2 capture 
+May 25 10:43:39.151 HYPERVISOR: exec_cmd: nio setup_filter udp-530e37a7-1b02-4635-8942-75e22c8d7f45 2 en10mb C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP5\ex1p2\project-files\captures\LabComServer2Clone-1_Ethernet0_to_Switch1_Ethernet0.pcap 
+May 25 11:20:10.490 HYPERVISOR: exec_cmd: nio unbind_filter udp-530e37a7-1b02-4635-8942-75e22c8d7f45 2 
+May 25 11:24:34.212 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+May 25 11:24:34.248 HYPERVISOR: exec_cmd: hypervisor stop 
+May 25 11:24:34.474 HYPERVISOR: Stopped.
+May 25 11:24:34.474 GENERAL: reset done.

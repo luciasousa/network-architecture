@@ -1,0 +1,75 @@
+Apr 18 11:07:25.492 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 11:07:25.492 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50828.
+Apr 18 11:07:25.996 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 11:07:25.996 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips 
+Apr 18 11:07:25.996 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips
+Apr 18 11:07:25.996 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips\b17252e0-a5ec-4f29-9df2-e61e671e57fa 
+Apr 18 11:07:25.996 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips\b17252e0-a5ec-4f29-9df2-e61e671e57fa
+Apr 18 11:07:25.996 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Apr 18 11:07:26.002 VM: VM R1 created.
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5003 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x601712a8 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.16c4.0000 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:26.002 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Apr 18 11:07:28.963 HYPERVISOR: exec_cmd: nio create_udp udp-4b5c6c24-c3e0-4469-bab7-a2672e5796dc 10004 127.0.0.1 10005 
+Apr 18 11:07:29.317 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-4b5c6c24-c3e0-4469-bab7-a2672e5796dc 
+Apr 18 11:07:29.317 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:07:29.390 HYPERVISOR: exec_cmd: nio create_udp udp-ec56a3d1-37b0-46cc-aa01-c3cc84bea50f 10008 127.0.0.1 10009 
+Apr 18 11:07:29.401 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-ec56a3d1-37b0-46cc-aa01-c3cc84bea50f 
+Apr 18 11:07:29.401 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:11:29.013 HYPERVISOR: exec_cmd: nio create_udp udp-dccf8983-efdf-409f-8956-c6eb3b058755 10036 127.0.0.1 10037 
+Apr 18 11:11:29.013 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-dccf8983-efdf-409f-8956-c6eb3b058755 
+Apr 18 11:11:29.013 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:16:37.745 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Apr 18 11:16:37.747 VM: VM Ghost created.
+Apr 18 11:16:37.749 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Apr 18 11:16:37.750 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 18 11:16:37.750 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 18 11:16:37.750 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Apr 18 11:16:37.750 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 18 11:16:37.769 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Apr 18 11:16:37.769 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 18 11:16:38.438 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 18 11:16:38.443 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 18 11:16:38.689 VM: VM Ghost shutdown.
+Apr 18 11:16:38.689 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Apr 18 11:16:38.698 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 18 11:16:38.698 VM: VM Ghost destroyed.
+Apr 18 11:16:38.706 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 18 11:16:38.708 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 18 11:16:38.709 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 11:16:38.709 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 11:16:38.709 HYPERVISOR: exec_cmd: vm start R1 
+Apr 18 11:17:09.076 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:19:09.071 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:25:09.078 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:28:39.070 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:38:09.164 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:51:07.527 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:53:37.528 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 11:55:37.526 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 12:01:02.673 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 12:01:02.675 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 18 12:01:02.821 VM: VM R1 shutdown.
+Apr 18 12:01:02.822 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 12:01:03.747 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 18 12:01:03.747 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 18 12:01:03.748 HYPERVISOR: exec_cmd: vm delete R1 
+Apr 18 12:01:03.749 VM: VM R1 destroyed.
+Apr 18 12:01:03.750 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 12:01:03.842 HYPERVISOR: Stopped.
+Apr 18 12:01:03.842 GENERAL: reset done.

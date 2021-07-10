@@ -1,0 +1,32 @@
+Jul 10 14:48:40.823 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 10 14:48:40.839 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53300.
+Jul 10 14:48:41.285 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 10 14:48:41.286 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips 
+Jul 10 14:48:41.286 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips
+Jul 10 14:48:41.287 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\8630613e-b1a3-4fe1-b354-79a1683914c6 
+Jul 10 14:48:41.289 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\8630613e-b1a3-4fe1-b354-79a1683914c6
+Jul 10 14:48:41.290 HYPERVISOR: exec_cmd: vm create SWL3_B 7 c3725 
+Jul 10 14:48:41.295 VM: VM SWL3_B created.
+Jul 10 14:48:41.296 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3_B 5048 
+Jul 10 14:48:41.297 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3_B 
+Jul 10 14:48:41.298 HYPERVISOR: exec_cmd: vm set_disk0 SWL3_B 1 
+Jul 10 14:48:41.299 HYPERVISOR: exec_cmd: vm set_exec_area SWL3_B 64 
+Jul 10 14:48:41.302 HYPERVISOR: exec_cmd: vm get_status SWL3_B 
+Jul 10 14:48:41.302 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3_B 0x60bf82c4 
+Jul 10 14:48:41.304 HYPERVISOR: exec_cmd: vm set_ios SWL3_B C:/Users/User/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jul 10 14:48:41.306 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3_B c207.18cc.0000 
+Jul 10 14:48:41.307 HYPERVISOR: exec_cmd: vm set_nvram SWL3_B 256 
+Jul 10 14:48:41.308 HYPERVISOR: exec_cmd: vm get_status SWL3_B 
+Jul 10 14:48:41.309 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3_B 1 0 NM-16ESW 
+Jul 10 14:49:02.349 HYPERVISOR: exec_cmd: nio create_udp udp-22d08269-aae4-4612-a16d-2728efa1cc4b 10082 127.0.0.1 10083 
+Jul 10 14:49:02.637 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_B 0 1 udp-22d08269-aae4-4612-a16d-2728efa1cc4b 
+Jul 10 14:49:02.640 HYPERVISOR: exec_cmd: vm get_status SWL3_B 
+Jul 10 14:49:02.957 HYPERVISOR: exec_cmd: nio create_udp udp-7662ad5a-b421-4e59-ae9b-636645215854 10088 127.0.0.1 10089 
+Jul 10 14:49:02.967 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_B 1 14 udp-7662ad5a-b421-4e59-ae9b-636645215854 
+Jul 10 14:49:02.967 HYPERVISOR: exec_cmd: vm get_status SWL3_B 
+Jul 10 14:49:03.394 HYPERVISOR: exec_cmd: nio create_udp udp-5a4d2066-29cf-45df-a271-3dc3dd7e6be4 10092 127.0.0.1 10093 
+Jul 10 14:49:03.398 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_B 1 15 udp-5a4d2066-29cf-45df-a271-3dc3dd7e6be4 
+Jul 10 14:49:03.398 HYPERVISOR: exec_cmd: vm get_status SWL3_B 
+Jul 10 14:49:04.025 HYPERVISOR: exec_cmd: nio create_udp udp-6360096b-ef9c-4911-bfac-4b11f2b75b78 10102 127.0.0.1 10103 
+Jul 10 14:49:04.029 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_B 0 0 udp-6360096b-ef9c-4911-bfac-4b11f2b75b78 
+Jul 10 14:49:04.029 HYPERVISOR: exec_cmd: vm get_status SWL3_B 

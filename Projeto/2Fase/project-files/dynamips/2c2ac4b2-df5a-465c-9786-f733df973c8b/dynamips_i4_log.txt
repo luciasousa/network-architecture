@@ -1,0 +1,33 @@
+May 29 19:37:25.955 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 29 19:37:25.956 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59964.
+May 29 19:37:26.435 HYPERVISOR: exec_cmd: hypervisor version 
+May 29 19:37:26.435 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips 
+May 29 19:37:26.435 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips
+May 29 19:37:26.436 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\2c2ac4b2-df5a-465c-9786-f733df973c8b 
+May 29 19:37:26.438 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\projeto\Projeto-AR\2Fase\project-files\dynamips\2c2ac4b2-df5a-465c-9786-f733df973c8b
+May 29 19:37:26.439 HYPERVISOR: exec_cmd: vm create FPT2 4 c7200 
+May 29 19:37:26.440 VM: VM FPT2 created.
+May 29 19:37:26.441 HYPERVISOR: exec_cmd: vm set_con_tcp_port FPT2 5003 
+May 29 19:37:26.441 HYPERVISOR: exec_cmd: c7200 get_mac_addr FPT2 
+May 29 19:37:26.442 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:37:26.442 HYPERVISOR: exec_cmd: vm slot_add_binding FPT2 0 0 C7200-IO-FE 
+May 29 19:37:26.442 HYPERVISOR: exec_cmd: vm set_disk0 FPT2 0 
+May 29 19:37:26.443 HYPERVISOR: exec_cmd: vm set_exec_area FPT2 64 
+May 29 19:37:26.443 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:37:26.443 HYPERVISOR: exec_cmd: vm set_idle_pc FPT2 0x601712a8 
+May 29 19:37:26.444 HYPERVISOR: exec_cmd: vm set_ios FPT2 C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 29 19:37:26.445 HYPERVISOR: exec_cmd: c7200 set_mac_addr FPT2 ca04.10c0.0000 
+May 29 19:37:26.445 HYPERVISOR: exec_cmd: vm set_nvram FPT2 512 
+May 29 19:37:26.446 HYPERVISOR: exec_cmd: vm set_ram FPT2 512 
+May 29 19:37:26.446 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:37:26.447 HYPERVISOR: exec_cmd: vm slot_remove_binding FPT2 0 0 
+May 29 19:37:26.447 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:37:26.447 HYPERVISOR: exec_cmd: vm slot_add_binding FPT2 0 0 C7200-IO-2FE 
+May 29 19:37:26.448 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:37:26.448 HYPERVISOR: exec_cmd: vm slot_add_binding FPT2 1 0 PA-2FE-TX 
+May 29 19:48:52.058 HYPERVISOR: exec_cmd: nio create_udp udp-eb799ddd-0c51-4766-bac6-4f43ea26b103 10136 127.0.0.1 10137 
+May 29 19:48:52.306 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FPT2 0 0 udp-eb799ddd-0c51-4766-bac6-4f43ea26b103 
+May 29 19:48:52.307 HYPERVISOR: exec_cmd: vm get_status FPT2 
+May 29 19:49:34.814 HYPERVISOR: exec_cmd: nio create_udp udp-a845c8ef-5407-4528-a288-277d1d9f26f3 10156 127.0.0.1 10157 
+May 29 19:49:34.819 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FPT2 0 1 udp-a845c8ef-5407-4528-a288-277d1d9f26f3 
+May 29 19:49:34.820 HYPERVISOR: exec_cmd: vm get_status FPT2 

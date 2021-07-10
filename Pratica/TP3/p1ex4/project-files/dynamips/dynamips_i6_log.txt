@@ -1,0 +1,9 @@
+Apr 18 11:07:27.735 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 11:07:27.736 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50840.
+Apr 18 11:07:28.224 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 11:07:28.224 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips 
+Apr 18 11:07:28.224 GENERAL: working_dir=C:\Users\User\Dropbox\My PC (DESKTOP-QQDL9LU)\Desktop\uni\Ano3\Semestre2\AR\P\TP3\p1ex2\project-files\dynamips
+Apr 18 11:07:28.224 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Apr 18 11:07:30.115 HYPERVISOR: exec_cmd: nio create_udp udp-7d601b0c-e6ae-4307-af02-e025cc884f6c 10019 127.0.0.1 10018 
+Apr 18 11:07:30.115 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-7d601b0c-e6ae-4307-af02-e025cc884f6c 
+Apr 18 11:07:30.132 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-7d601b0c-e6ae-4307-af02-e025cc884f6c 1 
